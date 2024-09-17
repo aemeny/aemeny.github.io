@@ -2906,7 +2906,7 @@ ul li i.fa-users {
 .slideshow {
     position: relative;
     width: 75%;
-    max-width: 800px; /* Set a max-width for the slideshow */
+    max-width: 29em; /* Set a max-width for the slideshow */
     margin: auto;
 }
 
