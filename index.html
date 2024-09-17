@@ -1,0 +1,361 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Alex Emeny | Game Programmer - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons.css">
+		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	</head>
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Banner -->
+					<section id="banner">
+						
+						<div id="particles-js">
+						<script>
+							particlesJS("particles-js", {
+							  "particles": {
+								"number": {
+								  "value": 60, // Number of particles
+								  "density": {
+									"enable": true,
+									"value_area": 800
+								  }
+								},
+								"color": {
+								  "value": "#85C1E9"  // Particle color
+								},
+								"shape": {
+								  "type": "circle",
+								  "stroke": {
+									"width": 0,
+									"color": "#85C1E9"
+								  },
+								},
+								"opacity": {
+								  "value": 0.5,
+								  "random": false,
+								  "anim": {
+									"enable": false,
+									"speed": 1,
+									"opacity_min": 0.1,
+									"sync": false
+								  }
+								},
+								"size": {
+								  "value": 3,
+								  "random": true,
+								  "anim": {
+									"enable": false,
+									"speed": 40,
+									"size_min": 0.1,
+									"sync": false
+								  }
+								},
+								"line_linked": {
+								  "enable": true,
+								  "distance": 150,
+								  "color": "#85C1E9",
+								  "opacity": 0.8,
+								  "width": 1
+								},
+								"move": {
+								  "enable": true,
+								  "speed": 1.3, // Slow down particle movement
+								  "direction": "none",
+								  "random": false,
+								  "straight": false,
+								  "out_mode": "out",
+								  "bounce": false,
+								  "attract": {
+									"enable": false,
+									"rotateX": 600,
+									"rotateY": 1200
+								  }
+								}
+							  },
+							  "interactivity": {
+								"detect_on": "canvas",
+								"events": {
+								  "onhover": {
+									"enable": true,
+									"mode": "grab"  // Enable grab mode to connect particles to the mouse
+								  },
+								  "onclick": {
+									"enable": false,
+								  },
+								  "resize": true
+								},
+								"modes": {
+								  "grab": {
+									"distance": 200,  // Distance at which particles grab to the mouse
+									"line_linked": {
+									  "opacity": 0.8  // Opacity of lines connected to mouse
+									}
+								  },
+								  "bubble": {
+									"distance": 400,
+									"size": 40,
+									"duration": 2,
+									"opacity": 8,
+									"speed": 3
+								  },
+								  "repulse": {
+									"distance": 200,
+									"duration": 0.4
+								  },
+								  "push": {
+									"particles_nb": 4
+								  },
+								  "remove": {
+									"particles_nb": 2
+								  }
+								}
+							  },
+							  "retina_detect": true
+							});
+						  </script>
+						  </div>
+						  
+								<div class="inner">
+									<h2><strong>Hi, I'm <span class="darkerBlue">Alex Emeny</span></strong></h2>
+									<p><span class="white">I'm an MSc Student Game Programmer!</span></p>
+								</div>
+						<a href="#Projects" class="more scrolly">View My Work</a>
+					</section>
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<nav>
+							<ul>
+								<li><a href="#banner" class="more scrolly nav-link" >Home</a></li>
+								<li><a href="#Projects" class="more scrolly nav-link" >Projects</a></li>
+								<li><a href="#About" class="more scrolly nav-link" >About</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- One -->
+					<!-- HEIGHT MAP -->
+				<section id="Projects" class="wrapper alt style2">
+					<section class="spotlight"> 
+						<div class="video">
+							<video autoplay muted loop>
+								<source src="Videos/HeightMapVid.mp4" type="video/mp4">
+								<source src="Videos/Movie.ogg" type="video/ogg">
+								Your browser does not support the video tag.
+							</video>
+						</div>
+						<div class="content">
+							<div class="title">
+							</br><h2><span class="darkerBlue">
+								Real-time 2D shadows
+							</span></h2> </br>
+							</div>
+							<div class="project-info">
+								<div class="description-block">
+									<h3><u><strong><b>
+										About
+									</b></strong></u></h3>
+									<p>This project utilizes height maps to create reactive shadows.</p>
+									<p>Shaders use the height map from a procedurally generated 2D island to produce 
+										shadows and lighting effects through ray casting, resulting in the final 3D look.</p>
+								</div>
+								<div class="details-block">
+									<h3><u><strong><b>
+										Project Info
+									</b></strong></u></h3>
+									<ul>
+										<li><i class="fas fa-user"></i><strong>Team:</strong> 1</li>
+										<li><i class="fas fa-clock"></i><strong>Time:</strong> Ongoing</li>
+										<li><i class="fas fa-cog"></i><strong>Engine:</strong> Custom (OpenGL)<h5></h5></li>
+										<li><i class="fas fa-code"></i> <strong>Languages:</strong> C++, GLSL</li>
+									</ul>
+									<a href="https://github.com/aemeny/Real-time-2D-shadows" class="github-button">View Repository</a>
+								</div>
+							</div>
+						</div>
+					</section>
+						
+					<!-- COSMARA -->
+					<section class="spotlight"> 
+						<div class="video">
+							<video autoplay muted loop>
+								<source src="Videos/CosmaraVid.mp4" type="video/mp4">
+								<source src="Videos/Movie.ogg" type="video/ogg">
+								Your browser does not support the video tag.
+							</video>
+						</div>
+						<div class="content">
+							<div class="title">
+							</br><h2><span class="darkerBlue">
+								Cosmara Mobile App
+							</span></h2> </br>
+							</div>
+							<div class="project-info">
+								<div class="description-block">
+									<h3><u><strong><b>
+										About
+									</b></strong></u></h3>
+									<p>This app is developed for the games company Cosmara.</p>
+									<p>Created with a small programming team, we are developing a 
+										tabletop companion app for players to share their experiences within the games universe.</p>
+								</div>
+								<div class="details-block">
+									<h3><u><strong><b>
+										Project Info
+									</b></strong></u></h3>
+									<ul>
+										<li><i class="fas fa-users"></i><strong>Team:</strong> 2</li>
+										<li><i class="fas fa-clock"></i><strong>Time:</strong> Ongoing</li>
+										<li><i class="fas fa-cog"></i><strong>Tools:</strong> Unity, Firebase<h5></h5></li>
+										<li><i class="fas fa-code"></i> <strong>Languages:</strong> C#</li>
+									</ul>
+									<b class="github-button-private">Private Repository</b>
+								</div>
+							</div>
+						</div>
+					</section>
+
+						<!-- DESTRUCTION -->
+						<section class="spotlight">
+							<div class="video">
+								<video autoplay muted loop>
+									<source src="Videos/DestructionVid.mp4" type="video/mp4">
+									<source src="Videos/Movie.ogg" type="video/ogg">
+									Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="content">
+								<div class="title">
+								</br><h2><span class="darkerBlue">
+									Real-time Dynamic Destruction
+								</span></h2> </br>
+								</div>
+								<div class="project-info">
+									<div class="description-block">
+										<h3><u><strong><b>
+											About
+										</b></strong></u></h3>
+										<p>This was my Dissertation Piece for my undergraduate studies in Games Software Engineering.</p>
+										<p>This thesis project produced a solution for real-time dynamic destruction making use of 2D Voronoi Diagrams.</p>
+									</div>
+									<div class="details-block">
+										<h3><u><strong><b>
+											Project Info
+										</b></strong></u></h3>
+										<ul>
+											<li><i class="fas fa-user"></i><strong>Team:</strong> 1</li>
+											<li><i class="fas fa-clock"></i><strong>Time:</strong> 3 Months</li>
+											<li><i class="fas fa-cog"></i><strong>Engine:</strong> Custom (OpenGL)<h5></h5></li>
+											<li><i class="fas fa-code"></i> <strong>Languages:</strong> C++, GLSL</li>
+										</ul>
+										<a href="https://github.com/aemeny/Real-time-dynamic-destruction" class="github-button">View Repository</a>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- GRAPHICS -->
+						<section class="spotlight"> 
+							<div class="video">
+								<div class="slideshow">
+									<div class="slides">
+										<img src="images/Cornell Box, base scene.png">
+									</div>
+									<div class="slides">
+										<img src="images/Cornell Box, testing global illumination.png">
+									</div>
+									<div class="slides">
+										<img src="images/Cornell box, high reflections.png">
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<div class="title">
+								</br><h2><span class="darkerBlue">
+									Ray tracer cornell box
+								</span></h2> </br>
+								</div>
+								<div class="project-info">
+									<div class="description-block">
+										<h3><u><strong><b>
+											About
+										</b></strong></u></h3>
+										<p>This was my Dissertation Piece for my undergraduate studies in Games Software Engineering.</p>
+										<p>This thesis project produced a solution for real-time dynamic destruction making use of 2D Voronoi Diagrams.</p>
+									</div>
+									<div class="details-block">
+										<h3><u><strong><b>
+											Project Info
+										</b></strong></u></h3>
+										<ul>
+											<li><i class="fas fa-user"></i><strong>Team:</strong> 1</li>
+											<li><i class="fas fa-clock"></i><strong>Time:</strong> 2 Months</li>
+											<li><i class="fas fa-cog"></i><strong>Engine:</strong> Custom (OpenGL)<h5></h5></li>
+											<li><i class="fas fa-code"></i> <strong>Languages:</strong> C++</li>
+										</ul>
+										<a href="https://github.com/aemeny/Ray-tracer-cornell-box" class="github-button">View Repository</a>
+									</div>
+								</div>
+							</div>
+						</section>
+
+					</section>
+				
+				<!-- Two -->
+				<section id="About" class="wrapper style1 special">
+					<div class="inner">
+						<header class="major">
+							<h2>About Me</h2>
+							<p style="text-align: left;">I am a 21-year-old game developer with a <span class="lightBlue">First-Class Honours</span> degree in <span class="lightBlue">Games 
+								Software Engineering</span> from Bournemouth University. Currently pursuing my <span class="lightBlue">master's degree at Falmouth University</span>, 
+								I specialize in C++, C#, low-level graphics, and game engines. </br>  </p>
+
+							<p style="text-align: left;">I enjoy working on <span class="lightBlue">low-level graphics</span> programming with technologies like <span class="lightBlue">OpenGL</span> 
+								and have experience with industry-standard game engines such as <span class="lightBlue">Unity</span> and <span class="lightBlue">Unreal Engine</span>. 
+								My passion lies in graphics programming and <span class="lightBlue">shader development.</span></p>
+						</header>
+					</div>
+				</section>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="container">
+						<div class="footer-links">
+							<a href="mailto:alexemeny73@gmail.com" class="footer-button">Send Me an Email</a>
+							<a href="https://github.com/aemeny" class="footer-button">Visit My GitHub</a>
+							<a href="https://www.linkedin.com/in/your-profile" class="footer-button">Connect on LinkedIn</a> 
+						</div>
+						<hr class="footer-divider">
+						<div class="footer-title">
+							<h1>You Can Find Me Here</h1> </br></br>
+						</div>
+						<a href="#top" class="actions stacked">Back to Top</a>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
