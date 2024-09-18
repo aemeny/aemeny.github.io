@@ -37,6 +37,7 @@ ol, ul {
 .lighterBlue { color: #85C1E9; }
 .darkerBlue { color:  #3498DB; }
 .white { color: white; }
+.grey { color:rgb(170, 170, 170);}
 
 blockquote, q {
 	quotes: none;

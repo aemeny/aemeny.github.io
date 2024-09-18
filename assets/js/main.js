@@ -70,6 +70,8 @@
 		smoothScroll(target, 1500);
 	});
 
+	//footer
+	document.getElementById("year").textContent = new Date().getFullYear();
 
 	//PARTICLES
 	particlesJS("particles-js", {
