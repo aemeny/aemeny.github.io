@@ -22,11 +22,7 @@
 							particlesJS("particles-js", {
 							  "particles": {
 								"number": {
-								  "value": 60, // Number of particles
-								  "density": {
-									"enable": true,
-									"value_area": 800
-								  }
+								  "value": 50, // Number of particles
 								},
 								"color": {
 								  "value": "#85C1E9"  // Particle color
@@ -67,7 +63,7 @@
 								},
 								"move": {
 								  "enable": true,
-								  "speed": 1.3, // Slow down particle movement
+								  "speed": 1.1, // Slow down particle movement
 								  "direction": "none",
 								  "random": false,
 								  "straight": false,
@@ -84,8 +80,7 @@
 								"detect_on": "canvas",
 								"events": {
 								  "onhover": {
-									"enable": true,
-									"mode": "grab"  // Enable grab mode to connect particles to the mouse
+									"enable": false,
 								  },
 								  "onclick": {
 									"enable": false,
@@ -266,13 +261,13 @@
 						<section class="spotlight"> 
 							<div class="slideshow">
 								<div class="slides">
-									<img src="images/Cornell Box, base scene.jpg">
+									<img src="images/Cornell Box, base scene.jpg" loading="lazy">
 								</div>
 								<div class="slides">
-									<img src="images/Cornell Box, testing global illumination.jpg">
+									<img src="images/Cornell Box, testing global illumination.jpg" loading="lazy">
 								</div>
 								<div class="slides">
-									<img src="images/Cornell box, high reflections.jpg">
+									<img src="images/Cornell box, high reflections.jpg" loading="lazy">
 								</div>
 							</div>
 							<div class="content">
