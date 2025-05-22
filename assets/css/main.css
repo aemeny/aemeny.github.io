@@ -2750,7 +2750,7 @@ ul li i.fa-users {
 }
 
 .spotlight h2 {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.0em;
 }
 
 .spotlight .date {
@@ -2773,7 +2773,6 @@ ul li i.fa-users {
     margin-bottom: 0.5em;
 }
 
-/* New CSS for the GitHub button */
 .github-button {
 	display: inline-block;
     padding: 0.6em 2em;
@@ -2785,8 +2784,8 @@ ul li i.fa-users {
     font-size: 1.15em;
     transition: all 0.3s ease;
     position: absolute;
-    bottom: 0; /* Align to the bottom of the description block */
-    translate: 0.5em 4.6em; /* Center the button and shift it down */
+    bottom: 0;
+    translate: 0.5em 4.6em; 
 
 }
 
@@ -2805,8 +2804,8 @@ ul li i.fa-users {
     font-size: 1.15em;
     transition: all 0.3s ease;
     position: absolute;
-    bottom: 0; /* Align to the bottom of the description block */
-    translate: -0.35em 4.7em; /* Center the button and shift it down */
+    bottom: 0; 
+    translate: -0.35em 4.7em; 
 }
 
 	.spotlight:nth-child(2n) {
